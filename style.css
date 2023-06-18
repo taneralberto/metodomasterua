@@ -68,6 +68,7 @@ img {
     font-size: var(--text-2xl);
     text-align: center;
     font-weight: var(--font-black);
+    margin-top: 1rem;
 }
 
 .bg {
@@ -110,7 +111,8 @@ img {
     background: var(--action);
     color: var(--bg);
     font-size: var(--text-xs);
-    font-size: clamp(var(--text-xs), 2.5vw, 2rem);
+    font-size: clamp(var(--text-base), 2.5vw, 2rem);
+    text-align: center;
     font-weight: var(--font-black);
     text-decoration: none;
     display: flex;
@@ -358,7 +360,7 @@ img {
 }
 .guarantee p {
     margin-top: 1rem;
-    text-align: justify;
+    text-align: left;
 }
 .guarantee .msg-1 {
     font-weight: var(--font-black);
@@ -380,6 +382,8 @@ img {
     font-weight: var(--font-bold);
     text-decoration: underline;
     font-size: var(--text-2xl);
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 
 .summary {
@@ -411,9 +415,11 @@ img {
     font-weight: var(--font-black);
     font-size: var(--text-2xl);
     color: var(--focus);
+    margin-top: 1rem;
 }
 .summary .msg-2 {
     margin-top: 2rem;
+    margin-bottom: 2rem;
 }
 .summary .msg-3, .summary .msg-4 {
     font-size: var(--text-xs);
