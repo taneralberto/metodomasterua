@@ -106,8 +106,6 @@ img {
 .call-to-action-button {
     padding: 0.5rem;
     padding: clamp(0.5rem, 2.5vw, 2rem);
-    padding-right: 2rem;
-    padding-left: 2rem;
     background: var(--action);
     color: var(--bg);
     font-size: var(--text-xs);
@@ -163,7 +161,6 @@ img {
 
 .questions {
     padding: 1rem;
-    margin-top: 2rem;
 }
 .questions .list {
     padding: var(--p-3);
@@ -315,6 +312,10 @@ img {
 }
 .call-action-1 .msg-2 {
     color: var(--focus);
+    margin-bottom: 1rem;
+}
+.call-action-1 .msg-3 {
+    margin-top: 1rem;
 }
 .call-action-1 .msg-3, .call-action-1 .msg-3 span {
     font-size: var(--text-3xl);
@@ -334,9 +335,10 @@ img {
 }
 .call-action-1 .msg-7 {
     font-size: var(--text-2xl);
-    font-size: clamp(var(--text-2xl), 5vw, 3rem);
+    font-size: clamp(var(--text-3xl), 7vw, 3rem);
     color: var(--focus);
     font-weight: var(--font-black);
+    margin-top: 3rem;
 }
 .call-action-1 .msg-9, .call-action-1 .msg-9 span {
     font-size: var(--text-2xl);
@@ -356,7 +358,7 @@ img {
     text-align: center;
 }
 .guarantee img {
-    width: 300px;
+    width: 200px;
 }
 .guarantee p {
     margin-top: 1rem;
@@ -365,6 +367,7 @@ img {
 .guarantee .msg-1 {
     font-weight: var(--font-black);
     font-size: var(--text-2xl);
+    text-align: center;
 }
 
 .professor {
